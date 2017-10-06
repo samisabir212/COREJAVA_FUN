@@ -1,0 +1,18 @@
+comparing elements in 2 arrays which have common and uncommon elements
+array1 {2,3,20,55,10}
+array2 {21,22,2,3,10,32}
+
+position 0 of array 1 will be compared with every position in array 2
+
+check if array 1 and array 2 have a common element or dont have a common element
+
+first element of array 1 is getting compared with all the elements in array2
+
+
+create a outer for loop and an inner for loop
+get the size of the array
+iterate the outer loop with i to array1.length
+    iterate the inner loop with j to array2.length
+        compare the i iteration position to all the array2.length positions
+            if common elements then do something.
+

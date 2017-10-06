@@ -1,4 +1,4 @@
-package collectionFramewrokInJava;
+package collectionFramewrokInJava.Vector;
 
 import java.util.List;
 import java.util.Vector;

@@ -1,0 +1,64 @@
+what is a list? number connected items or names written or printed consecutively
+when you dont put diamond brackets in the linked.. it means you dont have any restirictions
+list of 1 2 3 and list of 3 2 1 are different lists because of the order they are in.
+duplicate values are allowed in linked lists or some other lists
+
+arrays vs lists
+    expensive to add element to an array
+    the size of the array is fixed when created.
+    if you create a huge array and dont use it up then its a waste of memory
+
+    Linked List advantages
+        one part contains data one part has a reference.
+        Linked list uses node to store the data
+            each node will have reference to its repective node
+                you can go forward and backward
+
+         has a node and address   node value 7 | address 980
+
+
+    ARRAY LIST IMPLIMENTS THE LIST CLASS
+    ArrayList
+        arry list internally uses dynamic aray to store elements
+            it grows automatically
+
+    arraylist
+        Manipulation with arraylist is slow because it internally uses array
+        if any element is removed from the array, all the bits are shiftedin memory
+
+    arraylist
+        arraylist class can act as a list only because it implements list only
+
+    arraylist
+        is better for storing and accessing data
+
+    LinkedList
+        internally uses doubly linked list to store the elents
+
+    LinkedList
+        manipulation is faster than array lists
+        because there is no bit shifting requried in memory
+
+    LinkedList
+        better for manipulating data
+
+
+
+
+
+
+list behaviors
+    add an element
+    remove element
+    find an element
+
+
+methods in LinkedList
+    add()
+    add(E e)
+    add(int index, E element)
+        Inserts the specified element at the specified position in this list.
+
+     https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html
+
+

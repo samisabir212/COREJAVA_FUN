@@ -33,7 +33,7 @@ public class Fibonacci_series {
         if(num > 0){
             fibonacci(num);
         }else{
-            System.out.println("No. should be greater than zero.");
+            System.out.println("Nothing should be greater than zero.");
         }
 
     }

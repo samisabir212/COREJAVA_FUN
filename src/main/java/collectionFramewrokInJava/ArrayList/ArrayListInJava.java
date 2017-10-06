@@ -1,4 +1,4 @@
-package collectionFramewrokInJava;
+package collectionFramewrokInJava.ArrayList;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +14,8 @@ public class ArrayListInJava {
 		arrayList.add(true);
 		arrayList.add("Test");
 		arrayList.add(2);
-		
+
+
 		System.out.println(arrayList);
 		
 		List<Integer> arrayList1 = new ArrayList<Integer>();
@@ -24,6 +25,21 @@ public class ArrayListInJava {
 		arrayList1.add(9);
 
 		System.out.println(arrayList1);
+
+
+		for (int i = 0; i < arrayList1.size(); i++) {
+			//System.out.println(arrayList.get(i));
+			System.out.println("for loop iteration " + arrayList.get(i));
+
+
+		}
+
+		//new way to loop
+		for (int temp : arrayList1) {
+			System.out.println("New way to loop "+ temp);
+
+
+		}
 		
 	}
 

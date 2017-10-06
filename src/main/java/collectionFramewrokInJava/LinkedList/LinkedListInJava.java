@@ -1,4 +1,4 @@
-package collectionFramewrokInJava;
+package collectionFramewrokInJava.LinkedList;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -6,6 +6,9 @@ import java.util.List;
 public class LinkedListInJava {
 	
 	public static void main(String[] args) {
+
+
+
 		List linkedList = new LinkedList<List>();
 		linkedList.add(50);
 		linkedList.add(50);
@@ -13,6 +16,14 @@ public class LinkedListInJava {
 		linkedList.add(100);
 		linkedList.add(true);
 		linkedList.add(50);
+		System.out.println(linkedList);
+		linkedList.add(2, 10);
+
+		System.out.println(linkedList.get(2));
+
+		System.out.println(linkedList);
+		linkedList.remove(2);
+		System.out.println(linkedList.get(2));
 		
 		System.out.println(linkedList);
 		

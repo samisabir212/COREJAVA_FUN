@@ -1,4 +1,4 @@
-package collectionFramewrokInJava;
+package collectionFramewrokInJava.ArrayList;
 
 import java.util.ArrayList;
 import java.util.List;

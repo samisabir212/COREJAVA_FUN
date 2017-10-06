@@ -1,4 +1,4 @@
-package collectionFramewrokInJava;
+package collectionFramewrokInJava.ArrayList;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,15 +20,15 @@ public class ArrayListInJava2 {
 		arrayList1.add(50);
 		arrayList1.add(9);
 
-		//System.out.println(arrayList1);
-		//arrayList.addAll(arrayList1);
+		System.out.println("ArrayList1: "+ arrayList1);
+		arrayList.addAll(arrayList1);
 		//arrayList.add(2, 600);
 		
-		//arrayList.removeAll(arrayList1);
+		arrayList.removeAll(arrayList1);
 		arrayList.remove(3);
 		
 		
-		System.out.println(arrayList);
+		System.out.println("ArrayList1 and arraylist: "+arrayList);
 		
 	}
 

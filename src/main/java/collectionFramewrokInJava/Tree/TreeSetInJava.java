@@ -1,14 +1,13 @@
-package collectionFramewrokInJava;
+package collectionFramewrokInJava.Tree;
 
 import java.util.HashSet;
-import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
-import java.util.Set;
+import java.util.TreeSet;
 
-public class LinkedHashSetClassInJava {
+public class TreeSetInJava {
 	
-	public static void main(String[] args) {
-		
+  public static void main(String[] args) {
+	
 		HashSet<Integer> hashSet1 = new HashSet<Integer>();
 		hashSet1.add(211);
 		hashSet1.add(200);
@@ -28,15 +27,15 @@ public class LinkedHashSetClassInJava {
 		linkedHashSet.add(20000);
 		System.out.println(linkedHashSet);
 		
-		Set<Integer> linkedHashSet1 = new LinkedHashSet<Integer>();
-		linkedHashSet1.add(211);
-		linkedHashSet1.add(200);
-		linkedHashSet1.add(30);
-		linkedHashSet1.add(20000);
-		linkedHashSet1.add(20000);
-		linkedHashSet1.add(20000);
-		
-		System.out.println(linkedHashSet1);
-	}
+		TreeSet<Integer> treeSet  =  new TreeSet<Integer>();
+		treeSet.add(211);
+		treeSet.add(200);
+		treeSet.add(30);
+		treeSet.add(20000);
+		treeSet.add(20000);
+		treeSet.add(20000);
+		System.out.println(treeSet);
+}
+  
 
 }

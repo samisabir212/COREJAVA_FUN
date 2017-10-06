@@ -1,0 +1,3 @@
+how is this array getting sorted?
+
+nested for loop with if condition of array i is greater than array j

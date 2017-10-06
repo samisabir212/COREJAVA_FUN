@@ -1,0 +1,8 @@
+thread safe
+works the same way as a list
+it implements the list class
+
+when adding an object to a vector list you have to give it a value of type
+
+you cant assume that when you add a number to the list and it is a integer, no
+please view source file
