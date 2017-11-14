@@ -1,0 +1,6 @@
+Super keyword in java is a reference variable that is used to refer parent class object.
+Super is an implicit keyword create by JVM and supply each and every java program for performing important role in three places.
+
+At variable level
+At method level
+At constructor level

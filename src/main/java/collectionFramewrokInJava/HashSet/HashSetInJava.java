@@ -7,6 +7,8 @@ import java.util.Set;
 public class HashSetInJava {
 	
 	public static void main(String[] args) {
+
+
 		Set hashSet = new HashSet<LinkedHashSet>();
 		hashSet.add(2);
 		hashSet.add(2);
@@ -28,6 +30,9 @@ public class HashSetInJava {
 		hashSet2.add(2);
 		hashSet2.add(3);
 		hashSet2.add(2);
+
+
+
 
 		
 		System.out.println(hashSet2);

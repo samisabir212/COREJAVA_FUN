@@ -7,6 +7,16 @@ public class interviewMinNumber {
 
 
     public static void main(String[] args) {
+
+
+        /*
+        * print a matrix thats 3x3
+        * 2 4 5
+        * 3 4 7
+        * 1 2 9
+        *
+        * */
+
         int abc[][] = {{2, 4, 5}, {3, 4, 7}, {1, 2, 9}};
 
 
@@ -15,8 +25,7 @@ public class interviewMinNumber {
 
             for (int j=0; j< 3;j++) {
 
-                    if (abc[])
-
+                System.out.println(abc[i][j]);
             }
         }
 

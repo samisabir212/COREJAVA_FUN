@@ -29,6 +29,13 @@ public class Pyramid001 {
 
 
             for (int j = 1; j<10-i;j++) {
+                /*
+                * notice abovee
+                * that to make the iteration create a pyramid from greatest to
+                * least you have to subtract i to 10   j<10-i
+                * as i increments j decrements the amount of i
+                *
+                * */
 
                // System.out.println(j);
                 System.out.print("\t");//<--gives space between the end of the line.

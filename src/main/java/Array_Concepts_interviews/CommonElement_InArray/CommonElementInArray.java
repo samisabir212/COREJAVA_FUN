@@ -5,7 +5,7 @@ package Array_Concepts_interviews.CommonElement_InArray;
  */
 public class CommonElementInArray {
 
-   public int[] array1;
+    public int[] array1;
     private int[] array2;
 
 
@@ -27,6 +27,7 @@ public class CommonElementInArray {
         //i will check then j will run through the whole array2 from 0 to the end of the array
         //to check if 0 element of array 1 is common to one of the elements in array 2
         for (int i = 0; i < arr1.length; i++) {
+
             for (int j = 0; j < arr2.length; j++) {
                 if (arr1[i] == arr2[j]) {
                     System.out.println("arr1 : " + arr1[i] + " is common to " + " arr2 : " + arr2[j]);

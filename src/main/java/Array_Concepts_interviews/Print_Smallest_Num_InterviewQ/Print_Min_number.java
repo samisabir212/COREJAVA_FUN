@@ -23,15 +23,25 @@ public class Print_Min_number {
         /*
         * abc[row][column]
         *
-        * matrix array
+        * matrix array of
         *
-        * you want to traverse throught the columns and rows
+        * 2 4 5
+        * 3 4 7
+        * 1 2 9
+        *
+        * you want to traverse through the columns and rows
         *
         * outer loop for the row|inner loop for the column
         *
         *                   1           2           3           */
         int abc[][] = {{2, 4, 5}, {3, 4, 7}, {1, 2, 9}};
 
+        /*
+        * the loop will run through the second for loop until j is greater than 3
+        * it will then go back to the first loop and go to the next iteration
+        * the cycle continues until i is greater than 3
+        *           because we only have 3 integers in each array set
+        * */
 
         for (int i = 0; i < 3; i++) {
 
